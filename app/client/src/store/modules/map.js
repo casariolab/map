@@ -44,7 +44,7 @@ const state = {
   activeLayerGroup: null,
   colorMapEntities: {}, // Fetched from geoserver
   geoserverLayerNames: null, // Created when user clicks corporate network,
-  geoserverWorkspace: 'petropolis',
+  geoserverWorkspace: 'deeptime',
   layersMetadata: {}, // Describe feature type.
   layersWithEntityField: null, // Fetched from Geoserver on load
   selectedCoorpNetworkEntity: null, // Selected entity,
@@ -68,7 +68,7 @@ const state = {
     visible: true,
     zIndex: 50,
     minResolution: 1,
-    maxResolution: 1600,
+    maxResolution: 8000,
     label: null,
     hoverable: true,
     canEdit: false,
