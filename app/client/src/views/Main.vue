@@ -27,20 +27,20 @@
         class="logo headline font-weight-bold gray--text mr-3 dark"
         >{{ $appConfig.app.title }}</v-toolbar-title
       >
-      <!--       <v-tooltip right>
+             <v-tooltip right>
         <template v-slot:activator="{ on }">
           <v-btn
             v-on="on"
             small
             depressed
             fab
-            color="rgb(228, 76, 107)"
+            color="rgb(74,74,74)"
             class="ml-0"
             @click="openWebsite()"
-            ><v-icon medium>fas fa-question</v-icon></v-btn
+            ><v-icon small>fas fa-home</v-icon></v-btn
           > </template
         ><span>Open Website</span>
-      </v-tooltip>                 -->
+      </v-tooltip>
 
       <v-spacer></v-spacer>
       <div v-for="(navbarGroup, index) in navbarGroups" :key="index">
@@ -127,7 +127,7 @@ export default {
       EventBus.$emit('resetMap');
     },
     openWebsite() {
-      window.open('https://map.deeptimechicago.org', '_blank');
+      window.open('https://casariolab.art', '_blank');
     },
     zoomToLocation() {
       if (this.region === 'local') {

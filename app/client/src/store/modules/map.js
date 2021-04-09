@@ -44,7 +44,7 @@ const state = {
   activeLayerGroup: null,
   colorMapEntities: {}, // Fetched from geoserver
   geoserverLayerNames: null, // Created when user clicks corporate network,
-  geoserverWorkspace: 'deeptime',
+  geoserverWorkspace: 'workspace1',
   layersMetadata: {}, // Describe feature type.
   layersWithEntityField: null, // Fetched from Geoserver on load
   selectedCoorpNetworkEntity: null, // Selected entity,
